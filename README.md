@@ -8,6 +8,8 @@ This project contains the docker-compose settings for the full MsViz installatio
 
 To run this project you have to install [Docker](https://www.docker.com) on your computer. You can find installers for the different OS (Windows, MacOS, Linux) [here](https://docs.docker.com/engine/installation/).
 
+**Attention: ** For oder Windows version then Windows 10 you have to install the lates [Docker Toolbox](https://github.com/docker/toolbox/releases/latest).
+
 ### Download this Docker image
 
 You can either download this project as a zip file or you can clone it using git:
@@ -19,3 +21,7 @@ Download and extract the ZIP file:
 #### Clone using git
 Type the following command from command line:
 `git clone git@github.com:vitalit-sib/msviz-docker.git`
+
+### Start the Docker command and go into the extracted `msviz-docker` folder:
+
+`cd folder/to/msviz`

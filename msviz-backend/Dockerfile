@@ -41,5 +41,5 @@ COPY startup_play.sh .
 EXPOSE $APP_PORT
 
 # * * * Run the Play application * * *
-CMD ./startup_play.sh $APP_DIR $APP_NAME $APP_PORT
+CMD /bin/bash startup_play.sh $APP_DIR $APP_NAME $APP_PORT
 
