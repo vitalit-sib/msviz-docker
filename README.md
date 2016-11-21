@@ -22,6 +22,21 @@ Download and extract the ZIP file:
 Type the following command from command line:
 `git clone git@github.com:vitalit-sib/msviz-docker.git`
 
-### Start the Docker command and go into the extracted `msviz-docker` folder:
+### Start the Docker command line and go into the extracted `msviz-docker` folder:
 
-`cd folder/to/msviz`
+`cd folder/to/msviz-docker-master`
+
+### Install and startup MsViz:
+
+`docker-compose up -d`
+
+### Open MsViz in your browser
+
+for Windows machines open the following link:
+[http://192.168.99.100:9001]
+
+for all other platforms us this link:
+[http://localhost:9001]
+
+### Update MsViz to a new version
+
