@@ -9,7 +9,10 @@ APP_NAME=$2
 APP_PORT=$3
 APP_DIR=$1
 MEM_SIZE=3500
-TMP_DIR=tmp
+TMP_DIR=/tmp/msviz
+
+# create the temporary directory for MsViz
+mkdir $TMP_DIR
 
 # remove the PID file if it exists
 if [ -f $APP_DIR/RUNNING_PID ]
