@@ -1,0 +1,18 @@
+msviz-frontend:
+  image: eboraas/apache
+  ports:
+  - "9001:80"
+  volumes:
+  - ./msviz-frontend/htdocs:/var/www/html
+  links:
+  - msviz-backend
+msviz-backend:
+  build: ./msviz-backend
+  ports:
+  - "9000:9000"
+  links:
+  - mongodb:mongo-msviz
+mongodb:
+  image: mongo
+  ports:
+  - "27017:27017"
