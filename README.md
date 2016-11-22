@@ -43,7 +43,7 @@ git clone git@github.com:vitalit-sib/msviz-docker.git
 
 ### Start the MsViz image
 
-Open the *Docker Terminal* and navigate to the extracted Msviz Docker image using the [cd command](https://en.wikipedia.org/wiki/Cd_(command)):
+Open the *Docker Terminal* and navigate to the extracted Msviz Docker image using the [*cd* command](https://en.wikipedia.org/wiki/Cd_(command)):
 
 ```
 cd folder/to/msviz-docker-master
