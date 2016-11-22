@@ -25,12 +25,12 @@ docker-machine rm default
 docker-machine create -d virtualbox --virtualbox-memory 4096 --virtualbox-cpu-count 2 default
 ```
 
-### Download the MsViz docker image
+### Download MsViz docker image
 
 You can either download this project as a zip file or clone it using git:
 
 #### *ZIP file*
-Download and extract the ZIP file:
+Download and extract ZIP file:
 
 <https://github.com/vitalit-sib/msviz-docker/archive/master.zip>
 
@@ -41,7 +41,7 @@ Type the following command:
 git clone git@github.com:vitalit-sib/msviz-docker.git
 ```
 
-### Start the MsViz image
+### Start MsViz image
 
 Open the *Docker Terminal* and navigate to the extracted Msviz Docker image using the [*cd* command](https://en.wikipedia.org/wiki/Cd_(command)):
 
@@ -49,7 +49,7 @@ Open the *Docker Terminal* and navigate to the extracted Msviz Docker image usin
 cd folder/to/msviz-docker-master
 ```
 
-Install and start the MsViz application:
+Install and start MsViz application:
 
 ```
 docker-compose up -d
