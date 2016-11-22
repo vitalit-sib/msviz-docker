@@ -23,7 +23,7 @@ When using the Docker Toolbox you have to increase the memory manually by typing
 ```
 docker-machine rm default
 docker-machine create -d virtualbox --virtualbox-memory 4096 default
-``
+```
 
 ### Download the MsViz docker image
 
