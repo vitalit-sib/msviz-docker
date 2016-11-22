@@ -1,6 +1,6 @@
 # MsViz Docker
 
-This project contains the docker-compose settings for the full MsViz installation (backend, frontend and db). This is a strait forward way to make MsViz run on any OS (Windows, MacOS or Linux).
+This project contains the docker-compose settings for the full MsViz installation (backend, frontend and db). This is a straightforward way to make MsViz run on any OS (Windows, MacOS or Linux).
 
 ## Installation
 
@@ -32,7 +32,7 @@ You can either download this project as a zip file or clone it using git:
 #### *ZIP file*
 Download and extract the ZIP file:
 
-[https://github.com/vitalit-sib/msviz-docker/archive/master.zip]
+<https://github.com/vitalit-sib/msviz-docker/archive/master.zip>
 
 #### *Clone from GitHub*
 Type the following command:
@@ -43,7 +43,7 @@ git clone git@github.com:vitalit-sib/msviz-docker.git
 
 ### Start the MsViz image
 
-Open the *Docker Terminal* and navigate to the extracted Msviz Docker image:
+Open the *Docker Terminal* and navigate to the extracted Msviz Docker image using the [cd command](https://en.wikipedia.org/wiki/Cd_(command)):
 
 ```
 cd folder/to/msviz-docker-master
