@@ -68,17 +68,17 @@ for all other platforms us this link:
 1. Download and extract the [latest version](https://github.com/vitalit-sib/msviz-docker/archive/master.zip) from GitHub.
 2. Navigate to the downloaded folder:
 	```
-	cd folder/to/msviz-docker-master
+		cd folder/to/msviz-docker-master
 	```
 3. Stop and remove the old image:
 	```
-	docker-compose stop
-	docker-compose rm
+		docker-compose stop
+		docker-compose rm
 	```
 4. Build and start the new image:
 	```
-	docker-compose build
-	docker-compose up -d
+		docker-compose build
+		docker-compose up -d
 	```
 
 
