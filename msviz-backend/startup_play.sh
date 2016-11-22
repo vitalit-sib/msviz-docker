@@ -8,7 +8,7 @@
 APP_NAME=$2
 APP_PORT=$3
 APP_DIR=$1
-MEM_SIZE=3500
+MEM_SIZE=$4
 TMP_DIR=/tmp/msviz
 
 # create the temporary directory for MsViz
@@ -21,4 +21,4 @@ if [ -f $APP_DIR/RUNNING_PID ]
 fi
 
 # start the play application
-./$APP_DIR/bin/$APP_NAME -Dhttp.port=$APP_PORT -J-Xmx${MEM_SIZE}m  -Djava.io.tmpdir=$TMP_DIR -Dconfig.file=msviz-backend.conf -DapplyEvolutions.default=true -DapplyDownEvolutions.default=true
+./$APP_DIR/bin/$APP_NAME -Dhttp.port=$APP_PORT -J-Xmx${MEM_SIZE}  -Djava.io.tmpdir=$TMP_DIR -Dconfig.file=msviz-backend.conf -DapplyEvolutions.default=true -DapplyDownEvolutions.default=true

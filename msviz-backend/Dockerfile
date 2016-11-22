@@ -10,6 +10,7 @@ ENV SBT_VERSION 0.13.11
 ENV APP_NAME msviz-backend
 ENV APP_PORT 9000
 ENV APP_DIR msviz-backend-1.0-SNAPSHOT
+ENV MEM_SIZE 3500m
 
 # Install Scala
 ## Piping curl directly in tar
@@ -41,5 +42,5 @@ COPY startup_play.sh .
 EXPOSE $APP_PORT
 
 # * * * Run the Play application * * *
-CMD /bin/bash startup_play.sh $APP_DIR $APP_NAME $APP_PORT
+CMD /bin/bash startup_play.sh $APP_DIR $APP_NAME $APP_PORT $MEM_SIZE
 
