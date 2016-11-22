@@ -11,18 +11,18 @@ This project contains the docker-compose settings for the full MsViz installatio
 To run this project you have to install [Docker](https://www.docker.com) on your computer. You can find installers for the different OS (Windows, MacOS, Linux) [here](https://docs.docker.com/engine/installation/).
 
 **Increase memory**: 
-In order to make MsViz work correctly you have to increase it's available memory to at least 4 GB. You can change the available memory from the *Docker Preferences* under the section *General*.
+In order to make MsViz work correctly you have to increase it's available memory to at least 4 GB. You can change the available memory from the *Docker Preferences* under the section *General*. To make MsViz run smoother you are also advised to increase the number of CPUs to at least 2.
 
 #### *Windows 8 or older*
 
 In case you are using a Windows older then version 10, you have to install the latest [Docker Toolbox](https://github.com/docker/toolbox/releases/latest).
 
 **Increase memory**: 
-When using the Docker Toolbox you have to increase the memory manually by typing the following commands from the *Docker Quickstart Terminal*:
+When using the Docker Toolbox you have to increase the memory to 4GB manually by typing the following commands from the *Docker Quickstart Terminal*. This command also allocates 2 CPUs, which is not strictly necessary but increases the performance:
 
 ```
 docker-machine rm default
-docker-machine create -d virtualbox --virtualbox-memory 4096 default
+docker-machine create -d virtualbox --virtualbox-memory 4096 --virtualbox-cpu-count 2 default
 ```
 
 ### Download the MsViz docker image
@@ -57,9 +57,9 @@ docker-compose up -d
 
 ### Open MsViz in your browser
 
-For Windows machines open <http://192.168.99.100:9001>.
+For Windows machines use <http://192.168.99.100:9001>.
 
-For all other platforms open <http://localhost:9001>.
+For all other platforms use <http://localhost:9001>.
 
 ### Update MsViz
 
