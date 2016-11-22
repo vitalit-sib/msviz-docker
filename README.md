@@ -20,9 +20,10 @@ In case you are using a Windows older then version 10, you have to install the l
 **Increase memory**: 
 When using the Docker Toolbox you have to increase the memory manually by typing the following commands from the *Docker Quickstart Terminal*:
 
-`docker-machine rm default`
-
-`docker-machine create -d virtualbox --virtualbox-memory 4096 default`
+```
+docker-machine rm default
+docker-machine create -d virtualbox --virtualbox-memory 4096 default
+```
 
 ### Download the MsViz docker image
 
@@ -36,17 +37,23 @@ Download and extract the ZIP file:
 #### *Clone from GitHub*
 Type the following command from command line:
 
-`git clone git@github.com:vitalit-sib/msviz-docker.git`
+```
+git clone git@github.com:vitalit-sib/msviz-docker.git
+```
 
 ### Start the MsViz image
 
 Open the *Docker Terminal* and go into the folder where you extracted the docker image:
 
-`cd folder/to/msviz-docker-master`
+```
+cd folder/to/msviz-docker-master
+```
 
 Install and start the MsViz application:
 
-`docker-compose up -d`
+```
+docker-compose up -d
+```
 
 ### Open MsViz in your browser
 
@@ -64,16 +71,15 @@ for all other platforms us this link:
 ```bash
 cd folder/to/msviz-docker-master
 ```
-
 3. Stop and remove the old image:
 
-```bash
+```
 docker-compose stop
 docker-compose rm
 ```
 
 4. Build and start the new image:
-```bash
+```
 docker-compose build
 docker-compose up -d
 ```
