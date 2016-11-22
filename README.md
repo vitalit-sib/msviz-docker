@@ -44,20 +44,36 @@ Open the *Docker Terminal* and go into the folder where you extracted the docker
 
 `cd folder/to/msviz-docker-master`
 
-The following command installs and starts the MsViz application:
+Install and start the MsViz application:
 
 `docker-compose up -d`
 
 ### Open MsViz in your browser
 
 for Windows machines open the following link:
-
 <http://192.168.99.100:9001>
 
 for all other platforms us this link:
-
 <http://localhost:9001>
 
 ### Update MsViz
+
+1. Download and extract the [latest version](https://github.com/vitalit-sib/msviz-docker/archive/master.zip) from GitHub.
+
+2. Navigate to the downloaded folder:
+`cd folder/to/msviz-docker-master`
+
+3. Stop and remove the old image:
+`docker-compose stop`
+`docker-compose rm`
+
+4. Build and start the new image:
+`docker-compose build`
+`docker-compose up -d`
+
+
+
+
+
 
 
