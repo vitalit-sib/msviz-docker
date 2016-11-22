@@ -6,14 +6,14 @@ This project contains the docker-compose settings for the full MsViz installatio
 
 ### Install Docker
 
-#### Linux, MacOS or Windows 10
+#### *Linux, MacOS or Windows 10*
 
 To run this project you have to install [Docker](https://www.docker.com) on your computer. You can find installers for the different OS (Windows, MacOS, Linux) [here](https://docs.docker.com/engine/installation/).
 
 **Increase memory**: 
 In order to make MsViz work correctly you have to increase it's available memory to at least 4 GB. You can change the available memory from the Docker *Preferences* under the section *General*
 
-#### Windows 8 or older
+#### *Windows 8 or older*
 
 In case you are using a Windows older then version 10, you have to install the lates [Docker Toolbox](https://github.com/docker/toolbox/releases/latest).
 
@@ -28,12 +28,12 @@ When using the Docker Toolbox you have to increase the memory manually by typing
 
 You can either download this project as a zip file or you can clone it using git:
 
-#### Download ZIP file
+#### *ZIP file*
 Download and extract the ZIP file:
 
 [https://github.com/vitalit-sib/msviz-docker/archive/master.zip]
 
-#### Clone using git
+#### *Clone from GitHub*
 Type the following command from command line:
 
 `git clone git@github.com:vitalit-sib/msviz-docker.git`
