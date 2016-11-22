@@ -11,11 +11,11 @@ This project contains the docker-compose settings for the full MsViz installatio
 To run this project you have to install [Docker](https://www.docker.com) on your computer. You can find installers for the different OS (Windows, MacOS, Linux) [here](https://docs.docker.com/engine/installation/).
 
 **Increase memory**: 
-In order to make MsViz work correctly you have to increase it's available memory to at least 4 GB. You can change the available memory from the Docker *Preferences* under the section *General*
+In order to make MsViz work correctly you have to increase it's available memory to at least 4 GB. You can change the available memory from the *Docker Preferences* under the section *General*.
 
 #### *Windows 8 or older*
 
-In case you are using a Windows older then version 10, you have to install the lates [Docker Toolbox](https://github.com/docker/toolbox/releases/latest).
+In case you are using a Windows older then version 10, you have to install the latest [Docker Toolbox](https://github.com/docker/toolbox/releases/latest).
 
 **Increase memory**: 
 When using the Docker Toolbox you have to increase the memory manually by typing the following commands from the *Docker Quickstart Terminal*:
@@ -27,7 +27,7 @@ docker-machine create -d virtualbox --virtualbox-memory 4096 default
 
 ### Download the MsViz docker image
 
-You can either download this project as a zip file or you can clone it using git:
+You can either download this project as a zip file or clone it using git:
 
 #### *ZIP file*
 Download and extract the ZIP file:
@@ -35,7 +35,7 @@ Download and extract the ZIP file:
 [https://github.com/vitalit-sib/msviz-docker/archive/master.zip]
 
 #### *Clone from GitHub*
-Type the following command from command line:
+Type the following command:
 
 ```
 git clone git@github.com:vitalit-sib/msviz-docker.git
@@ -43,7 +43,7 @@ git clone git@github.com:vitalit-sib/msviz-docker.git
 
 ### Start the MsViz image
 
-Open the *Docker Terminal* and go into the folder where you extracted the docker image:
+Open the *Docker Terminal* and navigate to the extracted Msviz Docker image:
 
 ```
 cd folder/to/msviz-docker-master
@@ -57,16 +57,14 @@ docker-compose up -d
 
 ### Open MsViz in your browser
 
-for Windows machines open the following link:
-<http://192.168.99.100:9001>
+For Windows machines open <http://192.168.99.100:9001>.
 
-for all other platforms us this link:
-<http://localhost:9001>
+For all other platforms open <http://localhost:9001>.
 
 ### Update MsViz
 
 1. Download and extract the [latest version](https://github.com/vitalit-sib/msviz-docker/archive/master.zip) from GitHub.
-2. Navigate to the downloaded folder:
+2. Navigate to the extracted folder:
 
 	```
 	cd folder/to/msviz-docker-master
