@@ -1,7 +1,15 @@
-<h1>Searches</h1>
+<h3>Database searches</h3>
+<h5>Select searches to be compared</h5>
+
 <p>
   <button class="btn btn-default" type="submit" ng-click="getSearchIds()">Compare</button>
-  <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Delete</button>
+  <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+  </button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="btn btn-default" ng-click="refreshSearches()">
+    <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+  </button>
 </p>
 
 <!--
@@ -79,7 +87,7 @@
     <tr ng-repeat="search in searches | orderBy:'-creationDate'" ng-init="addId($index)">
       <td ng-if="search.status.code!='done'"></td>
       <td ng-if="search.status.code=='done'"><input type="checkbox" ng-model="selected" ng-change="updateId($index)"></td>
-      <td ng-if="search.status.code=='done'"><a href="#/proteins/{{search.searchId}}">{{search.searchId}}</a></td>
+      <td ng-if="search.status.code=='done'"><a href="#/proteins/{{search.searchId}}" target="_blank">{{search.searchId}}</a></td>
       <td ng-if="search.status.code=='loading'" style="color:silver">{{search.searchId}}</td>
       <td ng-if="search.status.code=='error'" style="color:silver">{{formatSearchIdError(search.searchId)}}</td>
       <td>{{search.title}}</td>

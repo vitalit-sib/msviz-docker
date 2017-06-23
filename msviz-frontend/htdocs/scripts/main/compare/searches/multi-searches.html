@@ -1,7 +1,9 @@
+<h3>Searches comparision</h3>
+
 <div class="row">
   <!--div class="col-xs-8"><p class="text-left" ng-repeat="searchId in searchIds">Sample {{$index + 1}} : <strong>{{searchId}}</strong><small><i> {{titles[$index]}}</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of proteins= <strong>{{proteins['amountProteinHash'][searchId]}} </strong></small></p></div-->
   <div class="col-xs-6">
-    <h5>Order of searches</h5>
+    <h5>Order of searches (click and drag to rearrange)</h5>
     <ul data-as-sortable="dragControlListeners" data-ng-model="listSearchInfo">
       <li ng-repeat="item in listSearchInfo" data-as-sortable-item>
         <div data-as-sortable-item-handle >
@@ -24,7 +26,10 @@
     </thead>
     <tbody>
      <tr ng-repeat="prot in proteins['proteinInfos'] | orderBy:'-score' track by $index">
-      <td><a href="/#/compare/{{searchIdList.join(',')}}/protein/{{prot.ac}}:{{prot.source}}">{{prot.ac}}</a></td>
+      <td>
+        <a href="/#/compare/{{searchIdList.join(',')}}/protein/{{prot.ac}}::{{(prot.source[searchIdList[0]])?(prot.source[searchIdList[0]]):(prot.mainSource)}}" target="_blank">{{prot.ac}}</a>
+        <span ng-if="prot.isContaminant"><small><em>(contaminant)</em></small></span>
+      </td>
        <td ng-repeat="values in prot['datatable'] track by $index">
          {{values}}
        </td>

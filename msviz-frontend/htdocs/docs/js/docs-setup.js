@@ -37,7 +37,7 @@ NG_DOCS={
       "type": "service",
       "moduleName": "fishtones-wrapper",
       "shortDescription": "convert spectrum, matches etc. into fishTones ready object",
-      "keywords": "api buildrichseq convert convertspectrum expmsmspectrum fishtones fishtones-wrapper info input matches method msviz object pep psm ready received rich richsequence sequence serialized service spectrum specturm wet"
+      "keywords": "api buildrichseq convert convertspectrum expmsmspectrum fishtones fishtones-wrapper info input matches method msviz object pep psm ready received rich richsequence sequence serialized service spectrum wet"
     },
     {
       "section": "api",
