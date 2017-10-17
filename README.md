@@ -2,6 +2,10 @@
 
 This project contains the docker-compose settings for the full MsViz installation (backend, frontend and db). This is a straightforward way to make MsViz run on any OS (Windows, MacOS or Linux).
 
+Alternatively you can install MsViz from its source code:
+- https://github.com/vitalit-sib/msviz-backend
+- https://github.com/vitalit-sib/msviz-ui
+
 ## Copyright
 Copyright (C) 2014-2017 by Roman Mylonas (roman.mylonas@sib.swiss), SIB Swiss Institute of Bioinformatics.
 
