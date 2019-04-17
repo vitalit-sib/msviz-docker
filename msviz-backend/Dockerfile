@@ -1,5 +1,5 @@
 # Pull java base image
-FROM java:8
+FROM openjdk:8-jdk-stretch
 
 MAINTAINER Roman Mylonas <roman.mylonas@sib.swiss>
 
