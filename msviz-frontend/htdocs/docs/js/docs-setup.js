@@ -10,7 +10,8 @@ NG_DOCS={
       "type": "function",
       "moduleName": "environment",
       "shortDescription": "EnvConfig",
-      "keywords": "api backendurl configure current depending envconfig environment function handler localhost location moment pointer service set swissqt url"
+      "keywords": "api backendurl configure current depending envconfig environment function handler localhost location moment pointer service set swissqt url",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -19,7 +20,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "environment",
       "shortDescription": "wrap common call (GET ...) to the backend , prefixing backendUrl and getting data out of response",
-      "keywords": "$http absolute api backend backendurl call common data environment method options opts pass prefixing response returned service uri wrap"
+      "keywords": "$http absolute api backend backendurl call common data environment method options opts pass prefixing response returned service uri wrap",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -28,7 +30,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "experimental",
       "shortDescription": "Access to MS/MS basket",
-      "keywords": "access api based basket experimental expmsmsspectrum findspbyrunidandid findsprefbyrunidandid method ms pid reference runid service spectrum spextrum"
+      "keywords": "access api based basket experimental expmsmsspectrum findspbyrunidandid findsprefbyrunidandid method ms pid reference runid service spectrum spextrum",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -37,7 +40,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "fishtones-wrapper",
       "shortDescription": "convert spectrum, matches etc. into fishTones ready object",
-      "keywords": "api buildrichseq convert convertspectrum expmsmspectrum fishtones fishtones-wrapper info input matches method msviz object pep psm ready received rich richsequence sequence serialized service spectrum wet"
+      "keywords": "api buildrichseq convert convertspectrum expmsmspectrum fishtones fishtones-wrapper info input matches method msviz object pep psm ready received rich richsequence sequence serialized service spectrum wet",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -46,7 +50,8 @@ NG_DOCS={
       "type": "controller",
       "moduleName": "matches",
       "shortDescription": "controller to handled the detailed item (moused over",
-      "keywords": "api args bean controller detailed handled item map matches object type"
+      "keywords": "api args bean controller detailed handled item map matches object type",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -55,7 +60,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "display a fishtones PSM spectrum view",
-      "keywords": "api directive display fishtones matches psm spectrum view"
+      "keywords": "api directive display fishtones matches psm spectrum view",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -64,7 +70,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "display a fishtones PSM spectrum view",
-      "keywords": "api directive display fishtones matches psm spectrum view"
+      "keywords": "api directive display fishtones matches psm spectrum view",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -73,7 +80,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "psm box",
-      "keywords": "api box directive matches psm"
+      "keywords": "api box directive matches psm",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -82,7 +90,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "show the list of the selected peptides",
-      "keywords": "api directive list matches peptides selected"
+      "keywords": "api directive list matches peptides selected",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -91,7 +100,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "psm super short summary",
-      "keywords": "api directive matches psm short summary super"
+      "keywords": "api directive matches psm short summary super",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -100,7 +110,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "pviz one protein among multiple searches",
-      "keywords": "api directive matches multiple protein pviz searches"
+      "keywords": "api directive matches multiple protein pviz searches",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -109,7 +120,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "the popover when moving over the precursors in the XIC",
-      "keywords": "api directive matches moving popover precursors xic"
+      "keywords": "api directive matches moving popover precursors xic",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -118,7 +130,8 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "matches",
       "shortDescription": "the table showing the xic values after quantitation",
-      "keywords": "api directive matches quantitation showing table values xic"
+      "keywords": "api directive matches quantitation showing table values xic",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -127,7 +140,8 @@ NG_DOCS={
       "type": "object",
       "moduleName": "matches",
       "shortDescription": "A bean to restrict a search results on modification",
-      "keywords": "active api arguments bean call clean field function getselectedmodification init launches matches modif modiffilter modification modifications object oncomplete optinal opts populate process promise properties protein restrict search searches selected selecting set setselectedmodification setting trigger values"
+      "keywords": "active api arguments bean call clean field function getselectedmodification init launches matches modif modiffilter modification modifications object oncomplete optinal opts populate process promise properties protein restrict search searches selected selecting set setselectedmodification setting trigger values",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -136,7 +150,8 @@ NG_DOCS={
       "type": "object",
       "moduleName": "matches",
       "shortDescription": "the proteinMatchOverview",
-      "keywords": "aa acid amino api buid build count features getfeaturesaainfos getfeaturesaatargetmodif getfeaturespsmisomodifs getfeaturespsms getfeaturespsmscount info level list matches modif modified object proteinmatchoverview psm psmisomodif psms pviz ready target"
+      "keywords": "aa acid amino api buid build count features getfeaturesaainfos getfeaturesaatargetmodif getfeaturespsmisomodifs getfeaturespsms getfeaturespsmscount info level list matches modif modified object proteinmatchoverview psm psmisomodif psms pviz ready target",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -145,7 +160,8 @@ NG_DOCS={
       "type": "object",
       "moduleName": "matches",
       "shortDescription": "contains a list of psms who have the same sequence and set of modifications",
-      "keywords": "api appearing args build built check combinations compulsory contained course description equivalent fixmodif format grouped i2 iso list lower map matches method modif modification modifications multiple nb number object peptides pos position positions potential properties proteinlist psm psmisomodif psms return sequence set undefined underlying varmodif"
+      "keywords": "api appearing args build built check combinations compulsory contained course description equivalent fixmodif format grouped i2 iso list lower map matches method modif modification modifications multiple nb number object peptides pos position positions potential properties proteinlist psm psmisomodif psms return sequence set undefined underlying varmodif",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -154,7 +170,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "matches",
       "shortDescription": "take a list of psms, group them by equivalent sequence number of modifications and build an array of PSMIsoModif",
-      "keywords": "api array build equivalent group list matches method modif modifications number psm psmisomodif psms sequence service set single"
+      "keywords": "api array build equivalent group list matches method modif modifications number psm psmisomodif psms sequence service set single",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -163,7 +180,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "matches",
       "shortDescription": "Access to PSMS",
-      "keywords": "access add addfishtonesobjects api based count evenutally findallbysearchidandspectrumid findallbysearchidsandproteinid findallmodificationsbysearchids findallproteinrefsbysearchids fishtones ids list map matches method modification modifications modifname optional property protein proteinid psm psms richrseq search searchid searchids service set specrtum spectrumid unique withmodif"
+      "keywords": "access add addfishtonesobjects api based count evenutally findallbysearchidandspectrumid findallbysearchidsandproteinid findallmodificationsbysearchids findallproteinrefsbysearchids fishtones ids list map matches method modification modifications modifname optional property protein proteinid psm psms richrseq search searchid searchids service set specrtum spectrumid unique withmodif",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -172,7 +190,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "matches",
       "shortDescription": "Access to Searches",
-      "keywords": "access api array findallsearchids list matches method searches searchids service string"
+      "keywords": "access api array findallsearchids list matches method searches searchids service string",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -181,7 +200,8 @@ NG_DOCS={
       "type": "object",
       "moduleName": "matches",
       "shortDescription": "wrapper around the fisthones/d3 view for psm",
-      "keywords": "api fisthones matches object psm view wrapper"
+      "keywords": "api fisthones matches object psm view wrapper",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -190,7 +210,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "multi-matches",
       "shortDescription": "Access to Searches",
-      "keywords": "ac access amount api array data findbymultisearchid html list method multi-matches object prepare prepareamountproteins prepareproteininfos protein proteinidents proteinrefs proteins searches searchid searchids service"
+      "keywords": "ac access amount api array data findbymultisearchid html list method multi-matches object prepare prepareamountproteins prepareproteininfos protein proteinidents proteinrefs proteins searches searchid searchids service",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -199,7 +220,8 @@ NG_DOCS={
       "type": "object",
       "moduleName": "proteinMatches",
       "shortDescription": "a match with a protein decription and a list of PSM",
-      "keywords": "ac acid amino api best coverage covered decription depth enhanced eventually getaminoacidinfo getmybestpsms getmypsms getprotein getpsms gettargetaminoacidwithtargetmodif gettargetmodification info list match matched method modif modificaiton modification object objects optional parameters pointing position protein proteinmatch proteinmatches proteinref psm psms selectedmodification sequence string target targeted targetmodification tweak valid"
+      "keywords": "ac acid amino api best coverage covered decription depth enhanced eventually getaminoacidinfo getmybestpsms getmypsms getprotein getpsms gettargetaminoacidwithtargetmodif gettargetmodification info list match matched method modif modificaiton modification object objects optional parameters pointing position protein proteinmatch proteinmatches proteinref psm psms selectedmodification sequence string target targeted targetmodification tweak valid",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -208,7 +230,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "proteinMatches",
       "shortDescription": "Access proteinIds via the matches spaces (no sequence, but the list of protein Ids etc.)",
-      "keywords": "access api array based findbysearchid ids list matches method names protein proteinids proteinmatches search searchid sequence service spaces"
+      "keywords": "access api array based findbysearchid ids list matches method names protein proteinids proteinmatches search searchid sequence service spaces",
+      "isDeprecated": false
     },
     {
       "section": "api",
@@ -217,7 +240,8 @@ NG_DOCS={
       "type": "service",
       "moduleName": "sequences",
       "shortDescription": "Access sequence definition (from AC/source to sequence)",
-      "keywords": "ac access api definition getsource method object protein sequence sequences service"
+      "keywords": "ac access api definition getsource method object protein sequence sequences service",
+      "isDeprecated": false
     }
   ],
   "apis": {

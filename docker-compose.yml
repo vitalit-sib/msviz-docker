@@ -13,6 +13,6 @@ msviz-backend:
   links:
   - mongodb:mongo-msviz
 mongodb:
-  image: mongo
+  image: mongo:2.6.9
   ports:
   - "27017:27017"
